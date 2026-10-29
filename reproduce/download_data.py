@@ -80,7 +80,7 @@ def main() -> None:
     parser.add_argument(
         "--url",
         default=os.environ.get("REACTION_ZENODO_URL", DEFAULT_URL),
-        help=f"Tier-A ZIP URL (default: reserved data record {ZENODO_RECORD})",
+        help=f"Tier-A ZIP URL (default: published data record {ZENODO_RECORD})",
     )
     parser.add_argument("--destination", type=Path, default=ROOT / "data/reaction-paper-v1")
     parser.add_argument("--verify-only", action="store_true")

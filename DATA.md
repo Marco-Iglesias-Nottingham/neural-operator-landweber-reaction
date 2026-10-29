@@ -105,13 +105,13 @@ published products.
 
 Each downloadable group has its own checksum manifest and README, and the
 Zenodo record links to the exact Git commit and software release tag. The
-software version is `v1.0.0`; the data-record version is `1.0.0`. Source code
+software version is `v1.0.1`; the data-record version is `1.0.0`. Source code
 is BSD-3-Clause and deposited data and numerical artifacts are CC BY 4.0.
 
 The Group-A archive is about 48 MB. The remaining archives are separated so a
 Tier-A reader does not need to download the full training corpus. Exact sizes
 and SHA-256 digests are in the Zenodo master manifest.
 
-The Zenodo record was created by the author and assigned the reserved DOI
-above. Publication remains an author action after the GitHub URL and final
-metadata have been checked.
+The Zenodo record is published at the DOI above. Its metadata identifies the
+public GitHub repository, corrected software release `v1.0.1`, and the exact
+frozen numerical artifacts described here.

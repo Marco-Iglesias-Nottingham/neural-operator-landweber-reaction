@@ -16,8 +16,8 @@
   },
   {
     "path": "DATA.md",
-    "bytes": 5953,
-    "sha256": "492a4972e53f6f8d7365bb9b33b9ade3637f632a4742e27e2506bc7d3626ae2c"
+    "bytes": 5973,
+    "sha256": "a65ab9b380ab5ea7d6b4c76c3f68dc489092f7a62e4d294515778fad42f65a9e"
   },
   {
     "path": "LICENSE",
@@ -26,8 +26,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 5912,
-    "sha256": "1ebc217f9f912431f10121a3e6114c9ce8f5e9b5525ee51947bac1114d92e00e"
+    "bytes": 5972,
+    "sha256": "303e773c22c94513e58ac546482032977a80a88c01e747fcbc45e694c518f97b"
   },
   {
     "path": "REPRODUCIBILITY.md",
@@ -476,8 +476,8 @@
   },
   {
     "path": "reproduce/download_data.py",
-    "bytes": 4199,
-    "sha256": "2c5e6da90f51abd53cf7ceb35da03bd1e06680f8197c67ec937104c07e56d7e3"
+    "bytes": 4200,
+    "sha256": "fdf52055e218d3522ea40140c4619d33c4b25c9e3418e6c2972b17281b68ecd7"
   },
   {
     "path": "reproduce/make_field_figures.py",

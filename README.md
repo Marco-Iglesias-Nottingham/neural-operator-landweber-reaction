@@ -28,7 +28,8 @@ python reproduce/paper.py
 
 The frozen data and numerical artifacts are archived at
 [doi:10.5281/zenodo.23767592](https://doi.org/10.5281/zenodo.23767592).
-Until that draft is public, a local archive can be installed with
+The published record is the data companion to software release `v1.0.1`.
+Alternatively, a local archive can be installed with
 `python reproduce/download_data.py --archive /path/to/reaction-paper-products-v1.zip`,
 or an unpacked bundle with `--source /path/to/reaction-paper-v1`.
 `reproduce/paper.py` verifies the bundle, regenerates seven tables and five
