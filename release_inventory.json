@@ -11,8 +11,8 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 1002,
-    "sha256": "a18b040aa8a45e41a6161ece635c133aff69d277b26ebebaea943e146de09c13"
+    "bytes": 1732,
+    "sha256": "953115785d878c293cfa720fa92f521051c3e5ad21a7bb0f26f77dd679b08dae"
   },
   {
     "path": "DATA.md",
@@ -21,13 +21,13 @@
   },
   {
     "path": "LICENSE",
-    "bytes": 1554,
-    "sha256": "f1ebe0d6b8c2cdf87f3efeceafa2c95f85894cf4dfaa6e839f769c8a1694dd1e"
+    "bytes": 1561,
+    "sha256": "abc96fad3f78187fd6f7bb61cc1d2fb39c79d31d29c6a6cd8683529875061c2c"
   },
   {
     "path": "README.md",
-    "bytes": 5902,
-    "sha256": "f2519de0f5fec94eb1a7e561260fb3a1835a24d74e03148a941657d077b277d9"
+    "bytes": 5912,
+    "sha256": "1ebc217f9f912431f10121a3e6114c9ce8f5e9b5525ee51947bac1114d92e00e"
   },
   {
     "path": "REPRODUCIBILITY.md",

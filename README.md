@@ -2,7 +2,8 @@
 
 This repository contains the code and frozen numerical products for the
 Reaction example in *Neural Operator Surrogates for Landweber Iteration in
-Solving Inverse Problems* by X. Gai, M. A. Iglesias, Y. Lu and H. Werner.
+Solving Inverse Problems* by Kuo Gai, Marco A. Iglesias, Shuai Lu and Frank
+Werner.
 It implements the elliptic reaction-coefficient forward problem, derivative
 labels, four neural-operator architectures, covariance-preconditioned
 Landweber iteration, and the analyses reported in Sections 7.1--7.11.
