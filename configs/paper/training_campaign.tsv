@@ -1,0 +1,53 @@
+run_id	model_family	train_samples	training_epochs	dino_weight	width	modes	layers	branch_dim	input_modes	output_modes	hidden_width	input_rank	output_rank	residual_blocks	study_roles
+fno_N1000_w24_m10_L4_J10	fno	1000	2500	10	24	10	4								training_size;ablation_j10
+fno_N5000_w24_m10_L4_J10	fno	5000	2500	10	24	10	4								training_size;ablation_j10
+fno_N10000_w8_m4_L4_J10	fno	10000	2500	10	8	4	4								capacity;ablation_j10
+fno_N10000_w12_m6_L4_J10	fno	10000	2500	10	12	6	4								capacity;ablation_j10
+fno_N10000_w16_m8_L4_J10	fno	10000	2500	10	16	8	4								capacity;ablation_j10
+fno_N10000_w24_m10_L4_J0	fno	10000	2500	0	24	10	4								lambda_sweep;headline_j0
+fno_N10000_w24_m10_L4_J0p1	fno	10000	2500	0.1	24	10	4								lambda_sweep
+fno_N10000_w24_m10_L4_J1	fno	10000	2500	1	24	10	4								lambda_sweep
+fno_N10000_w24_m10_L4_J10	fno	10000	2500	10	24	10	4								lambda_sweep;capacity;training_size;ablation_j10
+fno_N10000_w24_m10_L4_J100	fno	10000	2500	100	24	10	4								lambda_sweep
+fno_N10000_w24_m10_L4_J300	fno	10000	2500	300	24	10	4								lambda_sweep;headline_opt
+fno_N10000_w24_m10_L4_J1000	fno	10000	2500	1000	24	10	4								lambda_sweep
+fno_N10000_w24_m10_L4_J3000	fno	10000	2500	3000	24	10	4								lambda_sweep
+fno_N10000_w32_m12_L4_J10	fno	10000	2500	10	32	12	4								capacity;ablation_j10
+fno_N10000_w40_m16_L4_J10	fno	10000	2500	10	40	16	4								capacity;ablation_j10
+do_N1000_Dp400_L6_J10	deeponet	1000	2500	10			6	400							training_size;ablation_j10
+do_N5000_Dp400_L6_J10	deeponet	5000	2500	10			6	400							training_size;ablation_j10
+do_N10000_Dp200_L6_J10	deeponet	10000	2500	10			6	200							capacity;ablation_j10
+do_N10000_Dp400_L6_J0	deeponet	10000	2500	0			6	400							lambda_sweep;headline_j0
+do_N10000_Dp400_L6_J0p1	deeponet	10000	2500	0.1			6	400							lambda_sweep
+do_N10000_Dp400_L6_J1	deeponet	10000	2500	1			6	400							lambda_sweep
+do_N10000_Dp400_L6_J10	deeponet	10000	2500	10			6	400							lambda_sweep;capacity;training_size;ablation_j10
+do_N10000_Dp400_L6_J100	deeponet	10000	2500	100			6	400							lambda_sweep;headline_opt
+do_N10000_Dp400_L6_J300	deeponet	10000	2500	300			6	400							lambda_sweep
+do_N10000_Dp400_L6_J1000	deeponet	10000	2500	1000			6	400							lambda_sweep
+do_N10000_Dp400_L6_J3000	deeponet	10000	2500	3000			6	400							lambda_sweep
+do_N10000_Dp800_L6_J10	deeponet	10000	2500	10			6	800							capacity;ablation_j10
+gfno_N1000_im16_om24_h512_rb4_J10	genfno	1000	2500	10					16	24	512			4	training_size;ablation_j10
+gfno_N5000_im16_om24_h512_rb4_J10	genfno	5000	2500	10					16	24	512			4	training_size;ablation_j10
+gfno_N10000_im16_om12_h512_rb4_J10	genfno	10000	2500	10					16	12	512			4	capacity;ablation_j10
+gfno_N10000_im16_om24_h512_rb4_J0	genfno	10000	2500	0					16	24	512			4	lambda_sweep;headline_j0
+gfno_N10000_im16_om24_h512_rb4_J0p1	genfno	10000	2500	0.1					16	24	512			4	lambda_sweep
+gfno_N10000_im16_om24_h512_rb4_J1	genfno	10000	2500	1					16	24	512			4	lambda_sweep
+gfno_N10000_im16_om24_h512_rb4_J10	genfno	10000	2500	10					16	24	512			4	lambda_sweep;capacity;training_size;ablation_j10
+gfno_N10000_im16_om24_h512_rb4_J100	genfno	10000	2500	100					16	24	512			4	lambda_sweep;headline_opt
+gfno_N10000_im16_om24_h512_rb4_J300	genfno	10000	2500	300					16	24	512			4	lambda_sweep
+gfno_N10000_im16_om24_h512_rb4_J1000	genfno	10000	2500	1000					16	24	512			4	lambda_sweep
+gfno_N10000_im16_om24_h512_rb4_J3000	genfno	10000	2500	3000					16	24	512			4	lambda_sweep
+gfno_N10000_im16_om32_h512_rb4_J10	genfno	10000	2500	10					16	32	512			4	capacity;ablation_j10
+gfno_N10000_im16_om48_h512_rb4_J10	genfno	10000	2500	10					16	48	512			4	capacity;ablation_j10
+gdo_N1000_M400_N300_h1024_rb4_J10	gendeeponet	1000	2500	10							1024	400	300	4	training_size;ablation_j10
+gdo_N5000_M400_N300_h1024_rb4_J10	gendeeponet	5000	2500	10							1024	400	300	4	training_size;ablation_j10
+gdo_N10000_M400_N300_h1024_rb4_J0	gendeeponet	10000	2500	0							1024	400	300	4	lambda_sweep;headline_j0
+gdo_N10000_M400_N300_h1024_rb4_J0p1	gendeeponet	10000	2500	0.1							1024	400	300	4	lambda_sweep
+gdo_N10000_M400_N300_h1024_rb4_J1	gendeeponet	10000	2500	1							1024	400	300	4	lambda_sweep
+gdo_N10000_M400_N300_h1024_rb4_J10	gendeeponet	10000	2500	10							1024	400	300	4	lambda_sweep;capacity;training_size;ablation_j10
+gdo_N10000_M400_N300_h1024_rb4_J100	gendeeponet	10000	2500	100							1024	400	300	4	lambda_sweep
+gdo_N10000_M400_N300_h1024_rb4_J300	gendeeponet	10000	2500	300							1024	400	300	4	lambda_sweep
+gdo_N10000_M400_N300_h1024_rb4_J1000	gendeeponet	10000	2500	1000							1024	400	300	4	lambda_sweep;headline_opt
+gdo_N10000_M400_N300_h1024_rb4_J3000	gendeeponet	10000	2500	3000							1024	400	300	4	lambda_sweep
+gdo_N10000_M400_N300_h512_rb4_J10	gendeeponet	10000	2500	10							512	400	300	4	capacity;ablation_j10
+gdo_N10000_M400_N300_h1536_rb4_J10	gendeeponet	10000	2500	10							1536	400	300	4	capacity;ablation_j10

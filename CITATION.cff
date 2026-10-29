@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Neural Operator Surrogates for Landweber Iteration: Reaction Example"
+type: software
+version: 1.0.0
+license: BSD-3-Clause
+repository-code: "https://github.com/Marco-Iglesias-Nottingham/neural-operator-landweber-reaction"
+url: "https://github.com/Marco-Iglesias-Nottingham/neural-operator-landweber-reaction"
+authors:
+  - family-names: Gai
+    given-names: X.
+  - family-names: Iglesias
+    given-names: Marco A.
+  - family-names: Lu
+    given-names: Y.
+  - family-names: Werner
+    given-names: H.
+preferred-citation:
+  type: article
+  title: "Neural Operator Surrogates for Landweber Iteration in Solving Inverse Problems"
+  authors:
+    - family-names: Gai
+      given-names: X.
+    - family-names: Iglesias
+      given-names: Marco A.
+    - family-names: Lu
+      given-names: Y.
+    - family-names: Werner
+      given-names: H.
+  journal: "Journal of Machine Learning Research"
+  status: "submitted"

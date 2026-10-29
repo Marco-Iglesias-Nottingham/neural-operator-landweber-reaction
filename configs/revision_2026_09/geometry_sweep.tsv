@@ -1,0 +1,7 @@
+configuration_id	nu	length_scale
+nu0p25_ell0p1	0.25	0.1
+nu0p25_ell0p5	0.25	0.5
+nu0p25_ell1p0	0.25	1.0
+nu0p4_ell0p1	0.4	0.1
+nu0p4_ell0p5	0.4	0.5
+nu0p4_ell1p0	0.4	1.0

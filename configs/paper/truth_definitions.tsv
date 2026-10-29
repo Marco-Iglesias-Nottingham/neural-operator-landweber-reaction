@@ -1,0 +1,3 @@
+truth_id	origin	definition_status	truth_seed	noise_seed	source_grid_points	fine_fem_cells	generator	nu_values	length_scales	mean_u_range	std_u_range	u_bounds	expected_field_seed	expected_nu	expected_length_scale	expected_target_mean_u	expected_target_std_u
+T1	held_out_training_distribution_draw	frozen_generated	4240000	20260821	120x120	952x952	scripts/data/generate_truth_T1.py	1;1.5;2;2.5	0.075;0.10;0.15;0.20;0.25	95;105	10;30	0;200	1657906990	1.5	0.075	97.82987628024206	19.504740726669073
+T2	structured_rectangle_two_circles	frozen_generated	20260820	20260821	120x120	952x952	scripts/data/generate_truth_T2.py	not_applicable	not_applicable	95;105	10;30	0;200	not_applicable	not_applicable	not_applicable	not_applicable	not_applicable

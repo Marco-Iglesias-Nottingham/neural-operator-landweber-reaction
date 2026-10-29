@@ -1,0 +1,9 @@
+truth_id	truth_origin	data_case	model_cohorts	exact_fem	required_for_paper	current_status
+T1	held_out_training_distribution_draw	noiseless	headline_opt;headline_j0;ablation_j10	yes	yes	completed
+T1	held_out_training_distribution_draw	noise_01	headline_opt	yes	yes	completed
+T1	held_out_training_distribution_draw	noise_02	headline_opt	yes	yes	completed
+T1	held_out_training_distribution_draw	noise_05	headline_opt	yes	yes	completed
+T2	existing_supported_benchmark	noiseless	headline_opt;headline_j0;ablation_j10	yes	yes	completed
+T2	existing_supported_benchmark	noise_01	headline_opt	yes	yes	completed
+T2	existing_supported_benchmark	noise_02	headline_opt	yes	yes	completed
+T2	existing_supported_benchmark	noise_05	headline_opt	yes	yes	completed

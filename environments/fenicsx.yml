@@ -1,0 +1,13 @@
+name: reaction-fenicsx
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - fenics-dolfinx=0.10.0
+  - petsc=3.25.0
+  - petsc4py=3.25.0
+  - mpi4py=4.1.1
+  - ufl=2025.2.1
+  - numpy=2.4.3
+  - scipy=1.17.1
+  - h5py=3.16.0

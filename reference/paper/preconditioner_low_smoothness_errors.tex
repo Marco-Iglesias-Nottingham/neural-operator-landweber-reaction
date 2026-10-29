@@ -1,0 +1,19 @@
+\begin{tabular}{llrrrr}
+\toprule
+ & & \multicolumn{3}{c}{Mat\'ern, $\ell_C=0.1$} & \\
+\cmidrule(lr){3-5}
+Truth & Method & $\nu_C=3/2$ & $\nu_C=0.25$ & $\nu_C=0.4$ & Identity \\
+\midrule
+T1 & Exact FEM & 4.12 & 3.34 & 2.89 & -- \\
+T1 & FNO & 6.64 & 6.05 & 6.16 & 5.32 \\
+T1 & DeepONet & 7.65 & 7.50 & 7.51 & 8.77 \\
+T1 & GenFNO & 5.83 & 5.74 & 5.70 & 7.93 \\
+T1 & GenDeepONet & 7.11 & 6.87 & 6.92 & 8.22 \\
+\midrule
+T2 & Exact FEM & 6.94 & 6.01 & 5.87 & 1.62 \\
+T2 & FNO & 8.86 & 7.93 & 8.16 & 5.63 \\
+T2 & DeepONet & 9.70 & 9.39 & 9.44 & 9.57 \\
+T2 & GenFNO & 8.57 & 8.33 & 8.34 & 8.80 \\
+T2 & GenDeepONet & 9.41 & 9.00 & 9.05 & 9.62 \\
+\bottomrule
+\end{tabular}

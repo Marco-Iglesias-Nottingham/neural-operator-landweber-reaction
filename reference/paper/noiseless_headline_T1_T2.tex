@@ -1,0 +1,19 @@
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrrr}
+\toprule
+Truth & Method & $k_{\mathrm{or}}$ & $e_m^\star$ (\%) & $e_m^{K}$ (\%) & Surrogate residual (\%) & FEM residual (\%) \\
+\midrule
+T1 & Exact FEM & 10000 & 4.118 & 4.118 & -- & 0.035 \\
+T1 & FNO & 10000 & 6.639 & 6.639 & 0.149 & 0.159 \\
+T1 & DeepONet & 10000 & 7.651 & 7.651 & 0.235 & 0.236 \\
+T1 & GenFNO & 10000 & 5.825 & 5.825 & 0.462 & 0.103 \\
+T1 & GenDeepONet & 9143 & 7.105 & 7.106 & 0.178 & 0.228 \\
+\midrule
+T2 & Exact FEM & 10000 & 6.936 & 6.936 & -- & 0.068 \\
+T2 & FNO & 10000 & 8.858 & 8.858 & 0.213 & 0.214 \\
+T2 & DeepONet & 10000 & 9.703 & 9.703 & 0.334 & 0.327 \\
+T2 & GenFNO & 8859 & 8.574 & 8.577 & 0.462 & 0.371 \\
+T2 & GenDeepONet & 5523 & 9.405 & 9.454 & 0.219 & 0.579 \\
+\bottomrule
+\end{tabular}
+}
